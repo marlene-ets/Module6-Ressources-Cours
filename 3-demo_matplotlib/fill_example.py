@@ -7,7 +7,7 @@ plt.rcParams['font.size'] = 12
 plt.rcParams['figure.autolayout'] = True
 plt.rcParams['figure.dpi'] = 100
 
-data = pd.read_pickle('meteo_YUL_WKY_1973_2023.pkl')
+data = pd.read_pickle('../ressources/meteo_YUL_WKY_1973_2023.pkl')
 
 left = dt.date(2019, 5, 15)
 right = dt.date(2023, 5, 15)
